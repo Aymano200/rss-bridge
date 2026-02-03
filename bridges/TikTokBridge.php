@@ -23,7 +23,7 @@ class TikTokBridge extends BridgeAbstract
         ]
     ];
 
-    const CACHE_TIMEOUT = 60 * 60; // 1h
+    const CACHE_TIMEOUT = 60 * 5; // 1h
 
     public function collectData()
     {
